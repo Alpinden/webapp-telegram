@@ -28,3 +28,11 @@ export default function Home() {
     </div>
   );
 }
+
+export function RootLayout({ children }) {
+  return (
+    <html lang="ru">
+      <body>{children}</body>
+    </html>
+  );
+}
