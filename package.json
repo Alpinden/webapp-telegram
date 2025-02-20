@@ -1,3 +1,8 @@
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+}
 {
   "name": "webapp-telegram",
   "version": "1.0.0",
